@@ -1,3 +1,9 @@
+html {
+	font-size: 15px;
+
+	width: 100%;
+}
+
 body {
 	margin: 0;
 	font-family: Arial, sans-serif;
@@ -11,9 +17,9 @@ body {
 	position: relative;
 	
 	height: 100%;
-	min-height: 896px ;
-	width: 100%;
-	min-width: 390px;
+	/*min-height: 896px ;*/
+	width: 100vw;
+	/*min-width: 390px;*/
 	margin: 20px auto;
 	background-color: #eeee;
 	border: 2px solid #eee;
@@ -79,7 +85,7 @@ body {
 
 .nav-link:hover {
 	text-decoration: underline;
-	background-color: #384CE0;
+	background-color: #7d9baf;
 
 	transition: background-color 0.2s linear
 
@@ -89,6 +95,8 @@ body {
 /* ========= Feedback =========== */
 
 .feedback-block {
+	width: 100%;
+	height: 100%;
 	background-color: #ac7760;
 	overflow: hidden;
 }
@@ -226,10 +234,12 @@ body {
 }
 
 .sidebar-item {
-	font-size: 1rem;
+
+	display: block;
+	font-size: 0.8rem;
 	font-family: Arial, sans-serif;
 
-	margin: 0px auto;
+	margin: 3px auto;
 
 	
 	padding: 8px 12px;
@@ -369,7 +379,7 @@ body {
 	padding: 20px;
 	background-color: #e7e6e4;
 
-	width: 800px;
+	width: 100%;
 
 	justify-content: space-between;
 	
@@ -446,9 +456,17 @@ body {
 }
 
 
+@media (max-width: 1420px) {
+	.feedback-photo {
+		display: none;
+	}
 
+	.feedback {
+		margin: 0px auto;
+	}
+}
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
 
 	.sidebar {
 		display: none;
