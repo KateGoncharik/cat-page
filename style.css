@@ -196,6 +196,26 @@ body {
 	
 }
 
+.heart {
+	position: absolute;
+	top: 388px;
+	right: 45px;
+	width: 35%;
+	height: auto;
+
+	padding: 4px;
+}
+
+.cat2 {
+	position: absolute;
+	top: 313px;
+	right: 45px;
+	width: 35%;
+	height: auto;
+
+	padding: 4px;
+}
+
 .my-owners {
 	max-width: 40%;
 	max-height: 40%;
@@ -215,9 +235,9 @@ body {
 
 .sidebar{ 
 
-	
+	position: relative;
 	background: linear-gradient(to bottom, #be9fba, #ccc);
-	padding: 0 20px;
+	padding: 0 10px;
 
 	border-radius: 50px 50px 50px 50px;
 
@@ -234,9 +254,14 @@ body {
 }
 
 .sidebar-item {
+<<<<<<< HEAD
 
 	display: block;
 	font-size: 0.8rem;
+=======
+	display: flex;
+	font-size: 1rem;
+>>>>>>> aa2d1946f55528bb24b443d5101b787680518893
 	font-family: Arial, sans-serif;
 
 	margin: 3px auto;
@@ -254,10 +279,6 @@ body {
 	background-color: #7d9baf;
 
 	transition: background-color 0.2s linear
-
-
-
-
 
 }
 
@@ -416,9 +437,9 @@ body {
 /*=======Gallery=============*/
 
 .content-photos {
-	display: flex;
-	width: 80% ;
-
+	
+	padding-left: 30px;
+	width: 100%;
 	}
 
 .gallery {
@@ -435,7 +456,7 @@ body {
 
 .gallery img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .desc {
@@ -450,6 +471,11 @@ body {
 }
 
 /*=========== Video ==========*/
+
+.video {
+	width: 50%;
+	height: 45%;
+}
 
 .videos {
 	margin: 0 auto;
