@@ -254,14 +254,10 @@ body {
 }
 
 .sidebar-item {
-<<<<<<< HEAD
 
-	display: block;
-	font-size: 0.8rem;
-=======
 	display: flex;
 	font-size: 1rem;
->>>>>>> aa2d1946f55528bb24b443d5101b787680518893
+
 	font-family: Arial, sans-serif;
 
 	margin: 3px auto;
@@ -402,8 +398,6 @@ body {
 
 	width: 100%;
 
-	justify-content: space-between;
-	
 }
 
 .footer-inner {
@@ -413,20 +407,20 @@ body {
 
 .footer-div {
 	width: 200px;
-	height: 100px;
-}
+	height: 80px;
 
-.footer-contacts {
-	
 	background-color: #fdbbff;
 	color: black;
-	text-decoration: none;
+
+	text-align: center;
 }
 
 .footer-link {
 	font-size: 1rem;
 	color: #3d143d;
+
 	text-decoration: none;
+
 }
 
 .footer-link:hover {
