@@ -1,0 +1,38 @@
+
+/* Nav ==============*/
+
+.nav {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.nav-link {
+	
+	font-size: 1.3em;
+
+	padding: 8px 12px;
+	background-color: #612A01;
+	color: #EDBC13;
+	text-decoration: none;
+
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+	background-color: #7d9baf;
+
+	transition: background-color 0.2s linear
+
+}
+
+.my-active-link {
+	font-size: 1.3em;
+
+	padding: 8px 12px;
+	background-color: #bea0ba;
+	color: #000000;
+	text-decoration: none;
+
+}

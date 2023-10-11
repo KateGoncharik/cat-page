@@ -2,15 +2,14 @@
   "name": "cat-page",
   "version": "1.0.0",
   "description": "cat's page",
-  "main": "index.js",
- 
+  "private": true,
   "scripts": {
     "build-dev": "webpack",
     "build": "webpack --node-env=production",
     "start": "webpack serve",
     "lint-fix": "eslint --fix --ignore-pattern \"node_modules/\" --ignore-pattern \"/dist/\" .",
     "lint": "eslint --ignore-pattern \"node_modules/\" --ignore-pattern \"/dist/\" .",
-    "deploy": "npm run build && npx gh-pages -d docs"
+    "deploy": "npm run build && npx gh-pages -d dist"
   },
   "repository": {
     "type": "git",

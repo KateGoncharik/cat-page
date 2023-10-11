@@ -1,0 +1,25 @@
+/*Header*/
+
+.header {
+	padding: 10px;
+	border-bottom: 2px solid darkorange;
+	background-color: #ccc;
+	
+
+}
+
+.header-title {
+	
+	margin: 5px;
+	color: #F58F17;
+	font-size: 30px;
+	text-align: center;
+}
+
+.header-subtitle {
+	margin: 0;
+	color: #BD6E11;
+	font-size: 24px;
+	text-align: center;
+	font-weight: normal;
+}

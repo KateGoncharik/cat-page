@@ -1,0 +1,41 @@
+/* Sidebar ===========*/
+
+.sidebar{ 
+
+	position: relative;
+	background: linear-gradient(to bottom, #be9fba, #ccc);
+	padding: 0 10px;
+	height: 660px;
+
+	border-radius: 30px 30px 30px 30px ;
+
+}
+
+.sidebar-content {
+	width: 180px;
+}
+
+.sidebar-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 1.5rem;
+}
+
+.sidebar-item {
+	display: block;
+	font-size: 0.8rem;
+	font-family: Arial, sans-serif;
+	margin: 3px auto;
+	padding: 8px 12px;
+	background-color: #612A01;
+	color: #EDBC13;
+	text-decoration: none;
+}
+
+.sidebar-item:hover {
+	text-decoration: underline;
+	background-color: #7d9baf;
+
+	transition: background-color 0.2s linear
+
+}

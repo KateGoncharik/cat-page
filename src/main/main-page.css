@@ -1,0 +1,98 @@
+html {
+	font-size: 15px;
+
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #121212;
+	background: url("img/background.jpg");
+}
+
+.page {
+	position: relative;
+	
+	
+	margin: 20px auto;
+	background-color: #eeee;
+	border: 2px solid #eee;
+}
+
+/*Content ===============*/
+
+.content {
+	padding: 20px;
+
+}
+
+.content-title {
+	margin: 0;
+	margin-bottom: 15px;
+	font-size: 24px;
+	text-align: center;
+}
+.content-text {
+	margin: 20px;
+	font-size: 20px;
+}
+
+.facts-text {
+	padding: 20px;
+	background-color: #E6E6F4;
+	margin-left: 100px;
+}
+
+/* Hello-words ==================== */
+
+.hello-words {
+	margin: 1rem;
+
+	display: flex;
+}
+
+.hello-item1,
+.hello-item2 {
+	display: flex;
+
+	font-family: Tahoma, sans-serif;
+	
+
+	 padding: 20px;
+
+}
+
+.hello-item2 {
+	font-size: 1.6rem;
+	color: #DF7208;
+	box-shadow: 4px 7px 13px 0px rgb(0 0 0 / 50%);
+}
+
+
+.img {
+  display: flex;
+  float: left;
+}
+
+.cat {
+max-width: 35%;
+max-height: 35%;
+border: 2px solid #ccc;
+display: flex;
+
+}
+
+.food {
+	height: 30%;
+	width: 30%;
+}
+
+
+.container {
+	display: flex;
+	max-width: 1400px;
+	margin: 0 auto;
+}
