@@ -1,4 +1,4 @@
-import BaseComponent from '../../utils/base-component';
+import BaseComponent from '../../../utils/base-component';
 import './footer.css';
 import content from './footer.html';
 

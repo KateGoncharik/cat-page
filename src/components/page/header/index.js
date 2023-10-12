@@ -1,4 +1,4 @@
-import BaseComponent from '../../utils/base-component';
+import BaseComponent from '../../../utils/base-component';
 import './header.css';
 import content from './header.html';
 import nav from '../nav';

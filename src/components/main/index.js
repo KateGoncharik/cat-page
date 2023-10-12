@@ -1,13 +1,13 @@
-import BaseComponent from '../utils/base-component';
+import BaseComponent from '../../utils/base-component';
 import content from './index.html';
-import './main-page.css';
+import './main.css';
 
 export default class MainPage extends BaseComponent {
   constructor(parentNode) {
     super({
       parentNode,
       className: 'main',
-      content: content,
+      content,
     });
   }
 }

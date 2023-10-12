@@ -12,7 +12,7 @@
 /* ========= Feedback =========== */
 
 .feedback-block {
-	
+
 	max-width: 1200px;
 	height: 100%;
 	background-color: #ac7760;
@@ -30,7 +30,7 @@
 
 	width: 25%;
 	height: 35%;
-	
+
 	border-radius: 50px 50px 50px 50px; ;
 }
 
@@ -68,7 +68,7 @@
 
 .form-input:focus {
 	outline: none;
-	
+
 	background-color: #ccc;
 }
 
@@ -91,14 +91,14 @@
 }
 
 .fieldset {
-	
+
 	padding:  20px;
 
 	margin-bottom: 20px;
 
 	border-left-color: #ffffff;
 	border-right-color: #c4bcb7;
-	
+
 	border-top-color: #612a01;
 	border-bottom-color: #d3bed4;
 
@@ -129,7 +129,7 @@
 	max-height: 35%;
 	border: 2px solid #ccc;
 	display: flex;
-	
+
 }
 
 .cat2 {
@@ -140,14 +140,6 @@
 	height: auto;
 
 	padding: 4px;
-}
-
-.my-owners {
-	max-width: 40%;
-	max-height: 40%;
-	border: 2px solid #121212;
-	display: flex;
-	margin-bottom: 10px;
 }
 
 .food {
@@ -169,7 +161,7 @@
 }
 
 .table th {
-	
+
 	padding: 5px 10px 8px 15px;
 	text-align: left;
 	color: #4F4E44;
@@ -189,105 +181,14 @@
 }
 
 
-
-
-
-
-
-
-/*=======Gallery=============*/
-
-.content-photos {
-	display: flex;
-  padding: 5em;
-  border: 3px solid grey;
-  flex-wrap: wrap;
-}
-
-.gallery {
-
-  margin: 5px;
-  border: 1px solid #ccc;
-  width: 25%;
-
-
-  display: inline-block;
-}
-
-.gallery:hover {
-  border: 1px solid #777;
-}
-
-.gallery img {
-  width: 100%;
-  height: 100%;
-}
-
-.desc {
-
-  text-align: center;
-  max-width: 100%;
-  margin: 15px 25px 5px 25px;
-  font-size: 1.5em;
-}
-
 /*========== flex-item =======*/
 .flex-item {
-   
+
 
     flex-grow: 1;
     flex-basis: 200px;
 }
 
-/*=========== Video ==========*/
-
-.video {
-	margin: 10px 30px 40px 75px;
-	width: 85%;
-	
-}
-.high-video {
-	width: 45%;
-}
-
-.videos {
-	margin: 0 auto;
-}
-
-.video-box {
-	margin: 0 auto;
-	width: 100%;
-	height: 100%;
-
-	border: 2px dotted #121212;
-}
-
-/* .video-inner {
-
-} */
-
-
-
-
-@media (max-width: 850px) {
-
-	.sidebar {
-		display: none;
-	}
-
-	.content-text,
-	.facts-text {
-		font-size: 20px;
-	}
-
-	.hello-words {
-		display: none;
-	}
-
-    .flex-item {
-        flex-basis: 50%;
-    }
-}
 
 @media (max-width: 800px) {
 	.feedback-photo {

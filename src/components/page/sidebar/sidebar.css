@@ -1,6 +1,6 @@
 /* Sidebar ===========*/
 
-.sidebar{ 
+.sidebar{
 
 	position: relative;
 	background: linear-gradient(to bottom, #be9fba, #ccc);
@@ -38,4 +38,21 @@
 
 	transition: background-color 0.2s linear
 
+}
+
+.img {
+	display: flex;
+}
+
+.cat {
+max-width: 35%;
+max-height: 35%;
+border: 2px solid #ccc;
+display: flex;
+
+}
+
+.cat2 {
+width: 50%;
+padding: 4px;
 }
