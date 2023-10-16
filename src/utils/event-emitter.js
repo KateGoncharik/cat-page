@@ -13,7 +13,7 @@ export default class EventEmitter {
   off(event, listener) {
     if (EventEmitter.#listeners[event]) {
       EventEmitter.#listeners[event] = EventEmitter.#listeners[event].filter(
-        (l) => l !== listener,
+        (l) => l !== listener
       );
     }
   }
